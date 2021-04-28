@@ -1,0 +1,44 @@
+.App {
+  padding-left: 16px;
+  padding-right: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+}
+
+.containerSquare {
+  display: flex;
+  padding-left: 8px;
+  padding-right: 8px;
+  height: 400px;
+  width: 100%;
+  max-width: 400px;
+  overflow-y: auto;
+  border-width: 7px;
+  border-style: solid;
+  border-radius: 12px;
+  margin-bottom: 100px;
+}
+
+.text {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: left;
+  margin-left: 10px;
+}
+
+.InputAndButtonContext {
+  display: flex;
+  flex: content;
+  flex-direction: row;
+  justify-items: center;
+  align-items: center;
+}
+
+.button {
+  margin-left: 10px;
+  border-radius: 15px;
+  width: 30px;
+  height: 30px;
+}
