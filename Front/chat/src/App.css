@@ -7,10 +7,22 @@
   align-items: center;
 }
 
-.containerSquare {
+.containerSquareLogin {
   display: flex;
-  padding-left: 8px;
-  padding-right: 8px;
+  align-items: center;
+  justify-content: center;
+  height: 400px;
+  width: 100%;
+  max-width: 400px;
+  overflow-y: auto;
+  border-width: 7px;
+  border-style: solid;
+  border-radius: 12px;
+  margin-bottom: 100px;
+}
+
+.containerSquareChat {
+  display: flex;
   height: 400px;
   width: 100%;
   max-width: 400px;
@@ -41,4 +53,27 @@
   border-radius: 15px;
   width: 30px;
   height: 30px;
+}
+
+.InputLoginContent {
+  display: flex;
+  flex-direction: column;
+}
+
+.InputLogin {
+  border-radius: 13px;
+  width: 180px;
+  height: 15px;
+  margin-bottom: 10px;
+}
+.ButtonLoginContent {
+  display: flex;
+  justify-content: center;
+}
+
+.ButtonLogin {
+  width: 90px;
+  height: 20px;
+  border-radius: 13px;
+  margin-top: 20px;
 }
