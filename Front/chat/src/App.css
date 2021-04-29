@@ -19,6 +19,22 @@
   border-style: solid;
   border-radius: 12px;
   margin-bottom: 100px;
+  border-color: green;
+}
+
+.containerSquareCreateAccont {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 400px;
+  width: 100%;
+  max-width: 400px;
+  overflow-y: auto;
+  border-width: 7px;
+  border-style: solid;
+  border-radius: 12px;
+  margin-bottom: 100px;
+  border-color: blueviolet;
 }
 
 .containerSquareChat {
@@ -31,6 +47,7 @@
   border-style: solid;
   border-radius: 12px;
   margin-bottom: 100px;
+  border-color: saddlebrown;
 }
 
 .text {
@@ -75,5 +92,16 @@
   width: 90px;
   height: 20px;
   border-radius: 13px;
+  margin-top: 20px;
+}
+
+.ButtonLoginContentCreate {
+  display: flex;
+  justify-content: space-between;
+}
+
+.ButtonLoginCreate {
+  width: 90px;
+  height: 20px;
   margin-top: 20px;
 }

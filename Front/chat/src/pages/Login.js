@@ -10,6 +10,10 @@ function Login() {
     history.push('/chat');
   }
 
+  const goToCreate = () => {
+    history.push('/create');
+  }
+
   return (
     <div className="App">
       
@@ -20,6 +24,7 @@ function Login() {
           <input className="InputLogin" type="password" placeholder="Digite sua senha" />
           <div className="ButtonLoginContent" >
             <button className="ButtonLogin" type="submit" onClick={() => login()} >Login</button>
+            <button className="ButtonLogin" onClick={() => goToCreate()} >Create</button>
           </div>
         </div>
       </div>
